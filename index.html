@@ -13,8 +13,46 @@
         enable_page_level_ads: true
       });
     </script>
+    <style>
+      body {
+        background-color: grey;
+      }
+      .center {
+        text-align: center;
+      }
+      .photo {
+        border-width: 15px;
+        border-color: black;
+        border-style: solid;
+        margin: 20px;
+        margin-bottom: 0px;
+        transition-duration: 1s;
+      }
+      .photo:hover {
+        transform: scale(1.02);
+      }
+      .caption {
+        font-style: italic;
+        font-family: "Merienda";
+        font-size: 20px;
+      }
+    </style>
   </head>
   <body>
-    <a href="https://cs01.github.io/gdbgui/">https://cs01.github.io/gdbgui/</a>
+    <div class="center">
+      <div>
+        <img class="photo" src="img/tree.jpg" />
+        <p class="caption">
+          Oak Tree, Arastradero Preserve. Palo Alto, California. April, 2019.
+        </p>
+      </div>
+
+      <div>
+        <img class="photo" src="img/grass.jpg" />
+        <p class="caption">
+          Rolling Hills, Arastradero Preserve. Palo Alto, California. April, 2019.
+        </p>
+      </div>
+    </div>
   </body>
 </html>
