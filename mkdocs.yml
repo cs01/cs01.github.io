@@ -1,0 +1,27 @@
+site_name: Chad Smith's Blog
+site_url: https://chadsmith.dev/blog
+# repo_name: cs01/cs01.github.io
+# repo_url: https://github.com/cs01/cs01.github.io
+# site_description:
+
+extra_css: [extra.css]
+theme:
+  name: "material"
+  palette:
+    primary: blue
+    accent: blue
+  custom_dir: "blog_src/theme"
+
+google_analytics:
+  - "UA-90243909-2"
+  - "auto"
+copyright: Chad Smith
+nav:
+  - Home: "index.md"
+  - 2019:
+      - Five Myths About Pipenv: "five-myths-about-pipenv.md"
+      - Goodbye Virtual Environments?: "goodbye-virtual-environments.md"
+      - Pep 517 and 518 in Plain English: pep-517-and-518-in-plain-english.md
+      - What Could Be Better Than SSH?: what-could-be-better-than-ssh.md
+docs_dir: blog_src
+site_dir: blog
